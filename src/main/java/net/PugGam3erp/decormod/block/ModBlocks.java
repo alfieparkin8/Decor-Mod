@@ -4,6 +4,7 @@ import net.PugGam3erp.decormod.DecorMod;
 import net.PugGam3erp.decormod.block.custom.*;
 import net.PugGam3erp.decormod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -23,6 +24,11 @@ public class ModBlocks {
     public static final Block CHERRY_BLOSSOM_STAIRS = registerBlock("cherry_blossom_stairs", new ModStairsBlock(ModBlocks.CHERRY_BLOSSOM_PLANKS.getDefaultState(),AbstractBlock.Settings.of(Material.WOOD, MapColor.OAK_TAN).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.DECOR);
     public static final Block CHERRY_BLOSSOM_DOOR = registerBlock("cherry_blossom_door", new ModDoorBlock(AbstractBlock.Settings.of(Material.WOOD, MapColor.OAK_TAN).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.DECOR);
     public static final Block CHERRY_BLOSSOM_TRAPDOOR = registerBlock("cherry_blossom_trapdoor", new ModTrapdoorBlock(AbstractBlock.Settings.of(Material.WOOD, MapColor.OAK_TAN).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD)), ModItemGroup.DECOR);
+    public static final Block CHERRY_BLOSSOM_LOG = registerBlock("cherry_blossom_log", new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(4.0f)),ModItemGroup.DECOR);
+    public static final Block CHERRY_BLOSSOM_WOOD = registerBlock("cherry_blossom_wood", new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(4.0f)),ModItemGroup.DECOR);
+    public static final Block STRIPPED_CHERRY_BLOSSOM_LOG = registerBlock("stripped_cherry_blossom_log", new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).strength(4.0f)),ModItemGroup.DECOR);
+    public static final Block STRIPPED_CHERRY_BLOSSOM_WOOD = registerBlock("stripped_cherry_blossom_wood", new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(4.0f)),ModItemGroup.DECOR);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
