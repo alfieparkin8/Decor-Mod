@@ -21,6 +21,10 @@
   "block.decormod.cherry_blossom_button" : "Cherry Blossom Button",
   "block.decormod.cherry_blossom_fence" : "Cherry Blossom Fence",
   "block.decormod.cherry_blossom_fence_gate" : "Cherry Blossom Fence Gate",
+  "block.decormod.cherry_blossom_door": "Cherry Blossom Door",
+  "block.decormod.cherry_blossom_trapdoor": "Cherry Blossom Trapdoor",
+  "block.decormod.cherry_blossom_slab": "Cherry Blossom Slab",
+  "block.decormod.cherry_blossom_stairs": "Cherry Blossom Stairs",
 
 
   "itemGroup.decormod.decor" : "Dark and Decor"

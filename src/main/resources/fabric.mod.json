@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.PugGam3erp.decormod.DecorMod"
+    ],
+    "client": [
+      "net.PugGam3erp.decormod.DecorClientMod"
     ]
   },
   "mixins": [

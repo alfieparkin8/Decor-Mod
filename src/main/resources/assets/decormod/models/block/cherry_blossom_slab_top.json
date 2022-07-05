@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "decormod:block/cherry_blossom_planks",
+    "top": "decormod:block/cherry_blossom_planks",
+    "side": "decormod:block/cherry_blossom_planks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decormod:block/cherry_blossom_slab"
+    },
+    "type=double": {
+      "model": "decormod:block/cherry_blossom_block"
+    },
+    "type=top": {
+      "model": "decormod:block/cherry_blossom_slab_top"
+    }
+  }
+}
