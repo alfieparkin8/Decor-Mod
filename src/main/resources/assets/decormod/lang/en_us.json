@@ -16,5 +16,7 @@
   "item.decormod.cyan_brick" : "Cyan Brick",
   "item.decormod.orange_brick" : "Orange Brick",
 
-  "block.decormod.cherry_blossom_planks" : "Cherry Blossom Planks"
+  "block.decormod.cherry_blossom_planks" : "Cherry Blossom Planks",
+
+  "itemGroup.decormod.decor" : "Dark and Decor"
 }
