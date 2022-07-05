@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_gate",
   "textures": {
-    "texture": "decormod:block/cherry_blossom_block"
+    "texture": "decormod:block/cherry_blossom_planks"
   }
 }

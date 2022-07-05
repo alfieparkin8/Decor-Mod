@@ -17,6 +17,11 @@
   "item.decormod.orange_brick" : "Orange Brick",
 
   "block.decormod.cherry_blossom_planks" : "Cherry Blossom Planks",
+  "block.decormod.cherry_blossom_pressure_plate" : "Cherry Blossom Pressure Plate",
+  "block.decormod.cherry_blossom_button" : "Cherry Blossom Button",
+  "block.decormod.cherry_blossom_fence" : "Cherry Blossom Fence",
+  "block.decormod.cherry_blossom_fence_gate" : "Cherry Blossom Fence Gate",
+
 
   "itemGroup.decormod.decor" : "Dark and Decor"
 }
