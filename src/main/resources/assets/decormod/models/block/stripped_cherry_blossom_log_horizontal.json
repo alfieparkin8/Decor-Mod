@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column_horizontal",
   "textures": {
-    "end": "decormod:block/stripped_cherry_blossom_top",
+    "end": "decormod:block/stripped_cherry_blossom_log_top",
     "side": "decormod:block/stripped_cherry_blossom_log"
   }
 }
