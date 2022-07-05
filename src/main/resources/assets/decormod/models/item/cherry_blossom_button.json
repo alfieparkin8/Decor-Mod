@@ -1,6 +1,3 @@
 {
-  "parent": "block/button",
-  "textures": {
-    "texture": "decormod:block/cherry_blossom_planks"
-  }
+  "parent": "decormod:block/cherry_blossom_button_inventory"
 }
