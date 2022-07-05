@@ -1,5 +1,6 @@
 package net.PugGam3erp.decormod;
 
+import net.PugGam3erp.decormod.block.ModBlocks;
 import net.PugGam3erp.decormod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,5 +14,6 @@ public class DecorMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

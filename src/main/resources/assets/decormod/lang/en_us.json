@@ -1,3 +1,20 @@
 {
-  "item.decormod.red_brick" : "Red Brick"
+  "item.decormod.red_brick" : "Red Brick",
+  "item.decormod.black_brick" : "Black Brick",
+  "item.decormod.light_blue_brick" : "Light Blue Brick",
+  "item.decormod.blue_brick" : "Blue Brick",
+  "item.decormod.light_gray_brick" : "Light Gray Brick",
+  "item.decormod.gray_brick" : "Gray Brick",
+  "item.decormod.pink_brick" : "Pink Brick",
+  "item.decormod.purple_brick" : "Purple Brick",
+  "item.decormod.brown_brick" : "Brown Brick",
+  "item.decormod.yellow_brick" : "Yellow Brick",
+  "item.decormod.white_brick" : "White Brick",
+  "item.decormod.green_brick" : "Green Brick",
+  "item.decormod.lime_brick" : "Lime Brick",
+  "item.decormod.magenta_brick" : "Magenta Brick",
+  "item.decormod.cyan_brick" : "Cyan Brick",
+  "item.decormod.orange_brick" : "Orange Brick",
+
+  "block.decormod.cherry_blossom_planks" : "Cherry Blossom Planks"
 }
