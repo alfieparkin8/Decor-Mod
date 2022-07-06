@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cherry_blossom_log"
+      "item": "decormod:cherry_blossom_log"
     }
   },
   "result": {
-    "item": "minecraft:cherry_blossom_wood",
+    "item": "decormod:cherry_blossom_wood",
     "count": 3
   }
 }

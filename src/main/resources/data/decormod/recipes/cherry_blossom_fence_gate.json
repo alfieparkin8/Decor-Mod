@@ -10,10 +10,10 @@
       "item": "minecraft:stick"
     },
     "W": {
-      "item": "minecraft:cherry_blossom_planks"
+      "item": "decormod:cherry_blossom_planks"
     }
   },
   "result": {
-    "item": "minecraft:cherry_blossom_fence_gate"
+    "item": "decormod:cherry_blossom_fence_gate"
   }
 }

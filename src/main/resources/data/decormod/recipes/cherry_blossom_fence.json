@@ -7,14 +7,14 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:cherry_blossom_planks"
+      "item": "decormod:cherry_blossom_planks"
     },
     "#": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "minecraft:cherry_blossom_fence",
+    "item": "decormod:cherry_blossom_fence",
     "count": 3
   }
 }

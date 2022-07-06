@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cherry_blossom_planks"
+      "item": "decormod:cherry_blossom_planks"
     }
   },
   "result": {
-    "item": "minecraft:cherry_blossom_trapdoor",
+    "item": "decormod:cherry_blossom_trapdoor",
     "count": 2
   }
 }
