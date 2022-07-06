@@ -32,7 +32,7 @@ public class ModBlocks {
 
     public static final Block CHERRY_BLOSSOM_LEAVES = registerBlock("cherry_blossom_leaves", new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).strength(4.0f).nonOpaque()),ModItemGroup.DECOR);
 
-    public static final Block CHERRY_BLOSSOM_SAPLING = registerBlock("cherry_blossom_sapling", new ModSaplingBlock(new CherryBlossomSaplingGenerator(), FabricBlockSettings.copy(Blocks.OAK_SAPLING)),ModItemGroup.DECOR);
+    public static final Block CHERRY_BLOSSOM_SAPLING = registerBlock("cherry_blossom_sapling", new ModSaplingBlock(new CherryBlossomSaplingGenerator(), FabricBlockSettings.copy(Blocks.OAK_SAPLING).noCollision()),ModItemGroup.DECOR);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
