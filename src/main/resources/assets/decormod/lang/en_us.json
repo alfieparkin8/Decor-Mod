@@ -31,5 +31,8 @@
   "block.decormod.stripped_cherry_blossom_log" : "Stripped Cherry Blossom Log",
   "block.decormod.stripped_cherry_blossom_wood" : "Stripped Cherry Blossom Wood",
 
+  "block.decormod.cherry_blossom_leaves" : "Cherry Blossom Leaves",
+  "block.decormod.cherry_blossom_sapling": "Cherry Blossom Sapling",
+
   "itemGroup.decormod.decor" : "Dark and Decor"
 }

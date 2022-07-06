@@ -8,6 +8,7 @@ public class ModRegistries {
     public static void registerModStuffs() {
         registerStrippables();
         registerFlammableBlock();
+
     }
 
     private static  void registerStrippables(){
@@ -23,6 +24,7 @@ public class ModRegistries {
         instance.add(ModBlocks.STRIPPED_CHERRY_BLOSSOM_WOOD, 5, 5);
         instance.add(ModBlocks.STRIPPED_CHERRY_BLOSSOM_LOG, 5, 5);
         instance.add(ModBlocks.CHERRY_BLOSSOM_PLANKS, 5, 20);
+        instance.add(ModBlocks.CHERRY_BLOSSOM_PLANKS, 30, 60);
     }
 
 }

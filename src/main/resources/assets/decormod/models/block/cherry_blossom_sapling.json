@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "decormod:block/cherry_blossom_sapling"
+  }
+}

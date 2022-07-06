@@ -3,6 +3,7 @@ package net.PugGam3erp.decormod.block;
 import net.PugGam3erp.decormod.DecorMod;
 import net.PugGam3erp.decormod.block.custom.*;
 import net.PugGam3erp.decormod.item.ModItemGroup;
+import net.PugGam3erp.decormod.world.feature.tree.CherryBlossomSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -28,6 +29,10 @@ public class ModBlocks {
     public static final Block CHERRY_BLOSSOM_WOOD = registerBlock("cherry_blossom_wood", new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_WOOD).strength(4.0f)),ModItemGroup.DECOR);
     public static final Block STRIPPED_CHERRY_BLOSSOM_LOG = registerBlock("stripped_cherry_blossom_log", new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG).strength(4.0f)),ModItemGroup.DECOR);
     public static final Block STRIPPED_CHERRY_BLOSSOM_WOOD = registerBlock("stripped_cherry_blossom_wood", new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD).strength(4.0f)),ModItemGroup.DECOR);
+
+    public static final Block CHERRY_BLOSSOM_LEAVES = registerBlock("cherry_blossom_leaves", new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).strength(4.0f).nonOpaque()),ModItemGroup.DECOR);
+
+    public static final Block CHERRY_BLOSSOM_SAPLING = registerBlock("cherry_blossom_sapling", new ModSaplingBlock(new CherryBlossomSaplingGenerator(), FabricBlockSettings.copy(Blocks.OAK_SAPLING)),ModItemGroup.DECOR);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
