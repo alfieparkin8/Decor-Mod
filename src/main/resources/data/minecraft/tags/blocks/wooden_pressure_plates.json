@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
-    "decormod:cherry_blossom_pressure_plate"
+    "decormod:cherry_blossom_pressure_plate",
+    "minecraft:oak_pressure_plate",
+    "minecraft:spruce_pressure_plate",
+    "minecraft:birch_pressure_plate",
+    "minecraft:jungle_pressure_plate",
+    "minecraft:acacia_pressure_plate",
+    "minecraft:dark_oak_pressure_plate",
+    "minecraft:crimson_pressure_plate",
+    "minecraft:warped_pressure_plate"
   ]
 }
