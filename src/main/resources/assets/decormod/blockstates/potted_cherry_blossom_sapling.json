@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "decormod:block/potted_cherry_blossom" }
+    "": { "model": "decormod:block/potted_cherry_blossom_sapling" }
   }
 }
