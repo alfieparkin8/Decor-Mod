@@ -15,7 +15,13 @@
   "item.decormod.magenta_brick" : "Magenta Brick",
   "item.decormod.cyan_brick" : "Cyan Brick",
   "item.decormod.orange_brick" : "Orange Brick",
+
   "item.decormod.sapphire" : "Sapphire",
+  "item.decormod.sapphire_hoe" : "Sapphire Hoe",
+  "item.decormod.sapphire_axe" : "Sapphire Axe",
+  "item.decormod.sapphire_pickaxe" : "Sapphire Pickaxe",
+  "item.decormod.sapphire_sword" : "Sapphire Sword",
+  "item.decormod.sapphire_shovel" : "Sapphire Shovel",
 
   "block.decormod.cherry_blossom_planks" : "Cherry Blossom Planks",
   "block.decormod.cherry_blossom_pressure_plate" : "Cherry Blossom Pressure Plate",

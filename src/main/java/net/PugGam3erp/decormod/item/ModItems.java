@@ -1,8 +1,13 @@
 package net.PugGam3erp.decormod.item;
 
 import net.PugGam3erp.decormod.DecorMod;
+import net.PugGam3erp.decormod.item.custom.ModAxeItem;
+import net.PugGam3erp.decormod.item.custom.ModHoeItem;
+import net.PugGam3erp.decormod.item.custom.ModPickaxeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.SwordItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -24,7 +29,13 @@ public class ModItems {
     public static final Item GREEN_BRICK = registerItem("green_brick", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item RED_BRICK = registerItem("red_brick", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item BLACK_BRICK = registerItem("black_brick", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
+
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
+    public static final Item SAPPHIRE_SWORD = registerItem("sapphire_sword", new SwordItem(ModToolMaterials.SAPPHIRE,3, -2.4F, new FabricItemSettings().group(ModItemGroup.DECOR)));
+    public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel", new ShovelItem(ModToolMaterials.SAPPHIRE, 2.0F, -2.5F, new FabricItemSettings().group(ModItemGroup.DECOR)));
+    public static final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe", new ModPickaxeItem(ModToolMaterials.SAPPHIRE, 2, -2.8F, new FabricItemSettings().group(ModItemGroup.DECOR)));
+    public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe", new ModAxeItem(ModToolMaterials.SAPPHIRE, 6.0F, -3.0F, new FabricItemSettings().group(ModItemGroup.DECOR)));
+    public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe", new ModHoeItem(ModToolMaterials.SAPPHIRE, -3, 0.0F, new FabricItemSettings().group(ModItemGroup.DECOR)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(DecorMod.MOD_ID, name), item);
