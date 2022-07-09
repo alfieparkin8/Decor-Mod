@@ -35,6 +35,8 @@ public class ModBlocks {
 
     public static final Block POTTED_CHERRY_BLOSSOM_SAPLING = registerBlockWithoutBlockItem("potted_cherry_blossom_sapling", new FlowerPotBlock(ModBlocks.CHERRY_BLOSSOM_SAPLING, FabricBlockSettings.copy(Blocks.POTTED_OAK_SAPLING)), ModItemGroup.DECOR);
 
+    public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore", new Block(FabricBlockSettings.copy(Blocks.ANCIENT_DEBRIS)), ModItemGroup.DECOR);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

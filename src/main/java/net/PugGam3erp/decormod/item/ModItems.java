@@ -24,6 +24,7 @@ public class ModItems {
     public static final Item GREEN_BRICK = registerItem("green_brick", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item RED_BRICK = registerItem("red_brick", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item BLACK_BRICK = registerItem("black_brick", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
+    public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(DecorMod.MOD_ID, name), item);

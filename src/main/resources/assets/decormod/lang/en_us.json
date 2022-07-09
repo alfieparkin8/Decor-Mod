@@ -15,6 +15,7 @@
   "item.decormod.magenta_brick" : "Magenta Brick",
   "item.decormod.cyan_brick" : "Cyan Brick",
   "item.decormod.orange_brick" : "Orange Brick",
+  "item.decormod.sapphire" : "Sapphire",
 
   "block.decormod.cherry_blossom_planks" : "Cherry Blossom Planks",
   "block.decormod.cherry_blossom_pressure_plate" : "Cherry Blossom Pressure Plate",
@@ -34,6 +35,8 @@
   "block.decormod.cherry_blossom_leaves" : "Cherry Blossom Leaves",
   "block.decormod.cherry_blossom_sapling": "Cherry Blossom Sapling",
   "block.decormod.potted_cherry_blossom_sapling": "Potted Cherry Blossom Sapling",
+
+  "block.decormod.sapphire_ore" : "Sapphire Ore",
 
   "itemGroup.decormod.decor" : "Dark and Decor"
 }
