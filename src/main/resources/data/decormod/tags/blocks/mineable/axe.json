@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "decormod:cherry_blossom_planks",
+    "decormod:cherry_blossom_log",
+    "decormod:cherry_blossom_wood",
+    "decormod:cherry_blossom_door",
+    "decormod:cherry_blossom_pressure_plate",
+    "decormod:cherry_blossom_button",
+    "decormod:cherry_blossom_slab",
+    "decormod:cherry_blossom_stairs",
+    "decormod:stripped_cherry_blossom_log",
+    "decormod:stripped_cherry_blossom_wood",
+    "decormod:cherry_blossom_trapdoor",
+    "decormod:cherry_blossom_fence",
+    "decormod:cherry_blossom_fence_gate"
+  ]
+}
