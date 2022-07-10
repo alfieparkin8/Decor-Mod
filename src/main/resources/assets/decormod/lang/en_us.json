@@ -22,6 +22,10 @@
   "item.decormod.sapphire_pickaxe" : "Sapphire Pickaxe",
   "item.decormod.sapphire_sword" : "Sapphire Sword",
   "item.decormod.sapphire_shovel" : "Sapphire Shovel",
+  "item.decormod.sapphire_helmet" : "Sapphire Helmet",
+  "item.decormod.sapphire_chestplate" : "Sapphire Chestplate",
+  "item.decormod.sapphire_leggings" : "Sapphire Leggings",
+  "item.decormod.sapphire_boots" : "Sapphire Boots",
 
   "block.decormod.cherry_blossom_planks" : "Cherry Blossom Planks",
   "block.decormod.cherry_blossom_pressure_plate" : "Cherry Blossom Pressure Plate",

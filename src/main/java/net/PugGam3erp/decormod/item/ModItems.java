@@ -5,6 +5,8 @@ import net.PugGam3erp.decormod.item.custom.ModAxeItem;
 import net.PugGam3erp.decormod.item.custom.ModHoeItem;
 import net.PugGam3erp.decormod.item.custom.ModPickaxeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.SwordItem;
@@ -36,6 +38,11 @@ public class ModItems {
     public static final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe", new ModPickaxeItem(ModToolMaterials.SAPPHIRE, 2, -2.8F, new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item SAPPHIRE_AXE = registerItem("sapphire_axe", new ModAxeItem(ModToolMaterials.SAPPHIRE, 6.0F, -3.0F, new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item SAPPHIRE_HOE = registerItem("sapphire_hoe", new ModHoeItem(ModToolMaterials.SAPPHIRE, -3, 0.0F, new FabricItemSettings().group(ModItemGroup.DECOR)));
+
+    public static final Item SAPPHIRE_HELMET = registerItem("sapphire_helmet", new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.DECOR)));
+    public static final Item SAPPHIRE_CHESTPLATE = registerItem("sapphire_chestplate", new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.DECOR)));
+    public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings", new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.DECOR)));
+    public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots", new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.DECOR)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(DecorMod.MOD_ID, name), item);
