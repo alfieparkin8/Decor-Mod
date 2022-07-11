@@ -2,6 +2,8 @@ package net.PugGam3erp.decormod.world.feature;
 
 import net.PugGam3erp.decormod.DecorMod;
 import net.PugGam3erp.decormod.block.ModBlocks;
+import net.minecraft.block.Blocks;
+import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
 import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.gen.feature.*;
@@ -13,6 +15,14 @@ import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 import java.util.List;
 
 public class ModConfiguredFeatures {
+    public static final List<OreFeatureConfig.Target> END_ORES = List.of(
+            OreFeatureConfig.createTarget(new BlockMatchRuleTest(Blocks.END_STONE),
+                    ModBlocks.SAPPHIRE_ORE.getDefaultState()));
+
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> SAPPHIRE_ORE =
+            ConfiguredFeatures.register("sapphire_ore",Feature.ORE,
+                    new OreFeatureConfig(END_ORES, 4));
+
     public static final RegistryEntry<ConfiguredFeature<TreeFeatureConfig, ?>> CHERRY_BLOSSOM_TREE =
             ConfiguredFeatures.register("cherry_blossom_tree", Feature.TREE, new TreeFeatureConfig.Builder(
                     BlockStateProvider.of(ModBlocks.CHERRY_BLOSSOM_LOG),
