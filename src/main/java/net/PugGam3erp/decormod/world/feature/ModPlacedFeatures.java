@@ -13,7 +13,7 @@ public class ModPlacedFeatures {
                     PlacedFeatures.createCountExtraModifier(1, 0.1f, 2)));
 
     public static final RegistryEntry<PlacedFeature> SAPPHIRE_ORE_PLACED = PlacedFeatures.register("sapphire_ore_placed",
-            ModConfiguredFeatures.SAPPHIRE_ORE, ModOreFeatures.modifiersWithCount(10,
-                    HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+            ModConfiguredFeatures.SAPPHIRE_ORE, ModOreFeatures.modifiersWithCount(4,
+                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-35), YOffset.aboveBottom(20))));
 
 }

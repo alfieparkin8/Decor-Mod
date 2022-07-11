@@ -8,7 +8,6 @@ import net.minecraft.world.gen.GenerationStep;
 public class ModOreGeneration {
 
     public static void generateOres() {
-        BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(),
-                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.SAPPHIRE_ORE_PLACED.getKey().get());
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.SAPPHIRE_ORE_PLACED.getKey().get());
     }
 }
