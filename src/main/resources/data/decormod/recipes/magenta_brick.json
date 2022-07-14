@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    },
+    "O": {
+      "item": "minecraft:magenta_dye"
+    }
+  },
+  "result": {
+    "item": "decormod:magenta_brick",
+    "count": 8
+  },
+  "group": "colored_brick"
+}

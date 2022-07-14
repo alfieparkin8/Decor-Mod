@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "W W",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "minecraft:jungle_slab"
+    }
+  },
+  "result": {
+    "item": "decormod:jungle_table",
+    "count": 1
+  },
+  "group": "tables"
+}

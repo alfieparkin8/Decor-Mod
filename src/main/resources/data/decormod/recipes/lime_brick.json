@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#O#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    },
+    "O": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "item": "decormod:lime_brick",
+    "count": 8
+  },
+  "group": "colored_brick"
+}

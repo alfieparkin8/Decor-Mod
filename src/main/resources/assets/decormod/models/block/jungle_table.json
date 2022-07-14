@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "decormod:tables/oak_table",
-		"particle": "minecraft:oak_planks"
+		"1": "decormod:tables/jungle_table",
+		"particle": "minecraft:jungle_planks"
 	},
 	"elements": [
 		{

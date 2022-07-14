@@ -38,6 +38,14 @@ public class ModBlocks {
     public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore", new OreBlock(FabricBlockSettings.copy(Blocks.DIAMOND_ORE)), ModItemGroup.DECOR);
 
     public static final Block OAK_TABLE = registerBlock("oak_table", new ModTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.DECOR);
+    public static final Block BIRCH_TABLE = registerBlock("birch_table", new ModTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.DECOR);
+    public static final Block SPRUCE_TABLE = registerBlock("spruce_table", new ModTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.DECOR);
+    public static final Block DARK_OAK_TABLE = registerBlock("dark_oak_table", new ModTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.DECOR);
+    public static final Block JUNGLE_TABLE = registerBlock("jungle_table", new ModTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.DECOR);
+    public static final Block ACACIA_TABLE = registerBlock("acacia_table", new ModTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.DECOR);
+    public static final Block CRIMSON_TABLE = registerBlock("crimson_table", new ModTableBlock(FabricBlockSettings.of(Material.NETHER_WOOD).nonOpaque()), ModItemGroup.DECOR);
+    public static final Block WARPED_TABLE = registerBlock("warped_table", new ModTableBlock(FabricBlockSettings.of(Material.NETHER_WOOD).nonOpaque()), ModItemGroup.DECOR);
+    public static final Block CHERRY_BLOSSOM_TABLE = registerBlock("cherry_blossom_table", new ModTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.DECOR);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

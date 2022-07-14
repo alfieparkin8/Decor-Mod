@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "decormod:tables/oak_table",
-		"particle": "minecraft:oak_planks"
+		"1": "decormod:tables/cherry_blossom_table",
+		"particle": "decormod:cherry_blossom_planks"
 	},
 	"elements": [
 		{

@@ -49,6 +49,15 @@
   "block.decormod.sapphire_ore" : "Sapphire Ore",
 
   "block.decormod.oak_table": "Oak Table",
+  "block.decormod.cherry_blossom_table": "Cherry Blossom Table",
+  "block.decormod.dark_oak_table": "Dark Oak Table",
+  "block.decormod.jungle_table": "Jungle Table",
+  "block.decormod.acacia_table": "Acacia Table",
+  "block.decormod.birch_table": "Birch Table",
+  "block.decormod.spruce_table": "Spruce Table",
+  "block.decormod.crimson_table": "Crimson Table",
+  "block.decormod.warped_table": "Warped Table",
+
 
   "itemGroup.decormod.decor" : "Dark and Decor"
 }
