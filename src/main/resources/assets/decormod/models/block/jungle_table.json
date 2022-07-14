@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"1": "decormod:tables/jungle_table",
-		"particle": "minecraft:jungle_planks"
+		"particle": "decormod:tables/jungle_table"
 	},
 	"elements": [
 		{

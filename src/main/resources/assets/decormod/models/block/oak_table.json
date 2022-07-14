@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"1": "decormod:tables/oak_table",
-		"particle": "minecraft:oak_planks"
+		"particle": "decormod:tables/oak_table"
 	},
 	"elements": [
 		{

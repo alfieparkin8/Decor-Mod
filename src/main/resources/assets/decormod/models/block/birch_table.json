@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"1": "decormod:tables/birch_table",
-		"particle": "minecraft:birch_planks"
+		"particle": "decormod:tables/birch_table"
 	},
 	"elements": [
 		{
