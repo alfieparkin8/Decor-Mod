@@ -10,10 +10,10 @@ import net.minecraft.util.BlockMirror;
 import net.minecraft.util.BlockRotation;
 import org.jetbrains.annotations.Nullable;
 
-public class TableBlock extends Block {
+public class ModTableBlock extends Block {
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
 
-    public TableBlock(Settings settings) {
+    public ModTableBlock(Settings settings) {
         super(settings);
     }
 

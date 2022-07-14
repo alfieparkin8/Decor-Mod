@@ -37,7 +37,7 @@ public class ModBlocks {
 
     public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore", new OreBlock(FabricBlockSettings.copy(Blocks.DIAMOND_ORE)), ModItemGroup.DECOR);
 
-    public static final Block OAK_TABLE = registerBlock("oak_table", new TableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.DECOR);
+    public static final Block OAK_TABLE = registerBlock("oak_table", new ModTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.DECOR);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
