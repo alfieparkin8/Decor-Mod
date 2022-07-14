@@ -1,0 +1,34 @@
+{
+  "alfie": {
+    "sounds": [
+        {
+        "name": "decormod:alfie",
+        "stream": true
+       }
+    ]
+  },
+  "luca": {
+    "sounds": [
+      {
+        "name": "decormod:luca",
+        "stream": true
+      }
+    ]
+  },
+  "ellie": {
+    "sounds": [
+      {
+        "name": "decormod:ellie",
+        "stream": true
+      }
+    ]
+  },
+  "shann": {
+    "sounds": [
+      {
+        "name": "decormod:shann",
+        "stream": true
+      }
+    ]
+  }
+}

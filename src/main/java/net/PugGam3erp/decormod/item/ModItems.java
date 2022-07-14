@@ -3,7 +3,9 @@ package net.PugGam3erp.decormod.item;
 import net.PugGam3erp.decormod.DecorMod;
 import net.PugGam3erp.decormod.item.custom.ModAxeItem;
 import net.PugGam3erp.decormod.item.custom.ModHoeItem;
+import net.PugGam3erp.decormod.item.custom.ModMusicDiscItem;
 import net.PugGam3erp.decormod.item.custom.ModPickaxeItem;
+import net.PugGam3erp.decormod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
@@ -43,6 +45,19 @@ public class ModItems {
     public static final Item SAPPHIRE_CHESTPLATE = registerItem("sapphire_chestplate", new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings", new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots", new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.DECOR)));
+
+    public static final Item ALFIE_MUSIC_DISC = registerItem("alfie_music_disc",
+            new ModMusicDiscItem(7, ModSounds.ALFIE,
+                    new FabricItemSettings().group(ModItemGroup.DECOR).maxCount(1)));
+    public static final Item LUCA_MUSIC_DISC = registerItem("luca_music_disc",
+            new ModMusicDiscItem(7, ModSounds.LUCA,
+                    new FabricItemSettings().group(ModItemGroup.DECOR).maxCount(1)));
+    public static final Item ELLIE_MUSIC_DISC = registerItem("ellie_music_disc",
+            new ModMusicDiscItem(7, ModSounds.ELLIE,
+                    new FabricItemSettings().group(ModItemGroup.DECOR).maxCount(1)));
+    public static final Item SHANN_MUSIC_DISC = registerItem("shann_music_disc",
+            new ModMusicDiscItem(7, ModSounds.SHANN,
+                    new FabricItemSettings().group(ModItemGroup.DECOR).maxCount(1)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(DecorMod.MOD_ID, name), item);
