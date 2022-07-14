@@ -1,3 +1,6 @@
 {
-  "parent" : "decormod:block/oak_table"
+  "parent" : "item/generated",
+  "textures": {
+    "layer0": "decormod:item/sapphire"
+  }
 }

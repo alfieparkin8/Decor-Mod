@@ -48,5 +48,7 @@
 
   "block.decormod.sapphire_ore" : "Sapphire Ore",
 
+  "block.decormod.oak_table": "Oak Table",
+
   "itemGroup.decormod.decor" : "Dark and Decor"
 }
