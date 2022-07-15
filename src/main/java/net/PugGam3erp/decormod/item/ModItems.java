@@ -34,6 +34,7 @@ public class ModItems {
     public static final Item RED_BRICK = registerItem("red_brick", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item BLACK_BRICK = registerItem("black_brick", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
 
+    public static final Item SAPPHIRE_SHARD = registerItem("sapphire_shard", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item SAPPHIRE_SWORD = registerItem("sapphire_sword", new SwordItem(ModToolMaterials.SAPPHIRE,3, -2.4F, new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel", new ShovelItem(ModToolMaterials.SAPPHIRE, 2.0F, -2.5F, new FabricItemSettings().group(ModItemGroup.DECOR)));
@@ -45,6 +46,7 @@ public class ModItems {
     public static final Item SAPPHIRE_CHESTPLATE = registerItem("sapphire_chestplate", new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings", new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots", new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.DECOR)));
+
 
     public static final Item ALFIE_MUSIC_DISC = registerItem("alfie_music_disc",
             new ModMusicDiscItem(7, ModSounds.ALFIE,

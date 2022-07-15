@@ -14,5 +14,15 @@
     "decormod:cherry_blossom_trapdoor",
     "decormod:cherry_blossom_fence",
     "decormod:cherry_blossom_fence_gate"
+    "decormod:oak_table",
+    "decormod:dark_oak_table",
+    "decormod:birch_table",
+    "decormod:spruce_table",
+    "decormod:acacia_table",
+    "decormod:jungle_table",
+    "decormod:warped_table",
+    "decormod:crimson_table",
+    "decormod:cherry_blossom_table"
+
   ]
 }
