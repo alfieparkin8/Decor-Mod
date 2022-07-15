@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "SignTypeAccessor",
+    "BlockEntityTypeMixin"
   ],
   "injectors": {
     "defaultRequire": 1

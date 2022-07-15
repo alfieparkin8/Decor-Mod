@@ -1,6 +1,7 @@
 package net.PugGam3erp.decormod.item;
 
 import net.PugGam3erp.decormod.DecorMod;
+import net.PugGam3erp.decormod.block.ModBlocks;
 import net.PugGam3erp.decormod.item.custom.ModAxeItem;
 import net.PugGam3erp.decormod.item.custom.ModHoeItem;
 import net.PugGam3erp.decormod.item.custom.ModMusicDiscItem;
@@ -8,10 +9,7 @@ import net.PugGam3erp.decormod.item.custom.ModPickaxeItem;
 import net.PugGam3erp.decormod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -47,6 +45,9 @@ public class ModItems {
     public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings", new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots", new ArmorItem(ModArmorMaterials.SAPPHIRE, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.DECOR)));
 
+    public static final Item CHERRY_BLOSSOM_SIGN = registerItem("cherry_blossom_sign",
+            new SignItem(new FabricItemSettings().group(ModItemGroup.DECOR).maxCount(16),
+                    ModBlocks.CHERRY_BLOSSOM_SIGN_BLOCK, ModBlocks.CHERRY_BLOSSOM_WALL_SIGN_BLOCK));
 
     public static final Item ALFIE_MUSIC_DISC = registerItem("alfie_music_disc",
             new ModMusicDiscItem(7, ModSounds.ALFIE,
