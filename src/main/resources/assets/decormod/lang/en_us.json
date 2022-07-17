@@ -71,7 +71,22 @@
 
   "item.decormod.cherry_blossom_boat": "Cherry Blossom Boat",
 
-  "block.decormod.red_flower_pot" : "red_flower_pot",
+  "block.decormod.red_flower_pot" : "Red Flower Pot",
+  "block.decormod.orange_flower_pot" : "Orange Flower Pot",
+  "block.decormod.yellow_flower_pot" : "Yellow Flower Pot",
+  "block.decormod.lime_flower_pot" : "Lime Flower Pot",
+  "block.decormod.green_flower_pot" : "Green Flower Pot",
+  "block.decormod.cyan_flower_pot" : "Cyan Flower Pot",
+  "block.decormod.light_blue_flower_pot" : "Light Blue Flower Pot",
+  "block.decormod.blue_flower_pot" : "Blue Flower Pot",
+  "block.decormod.purple_flower_pot" : "Purple Flower Pot",
+  "block.decormod.magenta_flower_pot" : "Magenta Flower Pot",
+  "block.decormod.pink_flower_pot" : "Pink Flower Pot",
+  "block.decormod.white_flower_pot" : "White Flower Pot",
+  "block.decormod.brown_flower_pot" : "Brown Flower Pot",
+  "block.decormod.black_flower_pot" : "Black Flower Pot",
+  "block.decormod.gray_flower_pot" : "Gray Flower Pot",
+  "block.decormod.light_gray_flower_pot" : "Light Gray Flower Pot",
 
   "itemGroup.decormod.decor" : "Dark and Decor"
 }
