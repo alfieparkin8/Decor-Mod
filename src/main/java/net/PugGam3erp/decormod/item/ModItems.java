@@ -7,11 +7,14 @@ import net.PugGam3erp.decormod.item.custom.ModHoeItem;
 import net.PugGam3erp.decormod.item.custom.ModMusicDiscItem;
 import net.PugGam3erp.decormod.item.custom.ModPickaxeItem;
 import net.PugGam3erp.decormod.sound.ModSounds;
+import net.PugGam3erp.decormod.util.CustomBoatType;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+
+import static net.PugGam3erp.decormod.util.CustomBoatType.*;
 
 
 public class ModItems {
@@ -61,6 +64,10 @@ public class ModItems {
     public static final Item SHANN_MUSIC_DISC = registerItem("shann_music_disc",
             new ModMusicDiscItem(7, ModSounds.SHANN,
                     new FabricItemSettings().group(ModItemGroup.DECOR).maxCount(1)));
+
+    public static final Item CHERRY_BLOSSOM_BOAT = registerItem("cherry_blossom_boat", new BoatItem(false, CHERRY_BLOSSOM, new FabricItemSettings().maxCount(1).group(ModItemGroup.DECOR)));
+    public static final Item CHERRY_BLOSSOM_CHEST_BOAT = registerItem("cherry_blossom_chest_boat", new BoatItem(true, CHERRY_BLOSSOM, new FabricItemSettings().maxCount(1).group(ModItemGroup.DECOR)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(DecorMod.MOD_ID, name), item);

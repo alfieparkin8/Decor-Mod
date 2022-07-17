@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "key": {
+    "#": {
+      "item": "decormod:cherry_blossom_planks"
+    },
+    "O": {
+      "item": "minecraft:chest"
+    }
+  },
+  "pattern": [
+    "#O#",
+    "###"
+  ],
+  "result": {
+    "item": "decormod:cherry_blossom_chest_boat"
+  }
+}
