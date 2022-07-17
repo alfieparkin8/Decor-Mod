@@ -1,0 +1,6 @@
+{
+	"parent": "decormod:block/pots/yellow_flower_pot_cross",
+	"textures": {
+		"plant": "block/brown_mushroom"
+	}
+}

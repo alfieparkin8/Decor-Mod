@@ -1,0 +1,6 @@
+{
+	"parent": "decormod:block/pots/pink_flower_pot_cross",
+	"textures": {
+		"plant": "block/acacia_sapling"
+	}
+}

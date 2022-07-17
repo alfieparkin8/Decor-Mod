@@ -1,0 +1,6 @@
+{
+	"parent": "decormod:block/pots/gray_flower_pot_cross",
+	"textures": {
+		"plant": "block/dark_oak_sapling"
+	}
+}

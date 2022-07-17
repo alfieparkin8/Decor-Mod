@@ -1,7 +1,94 @@
 {
-  "variants": {
-    "": {
-      "model": "decormod:block/purple_flower_pot"
-    }
-  }
+	"variants": {
+		"flower=air": {
+			"model": "decormod:block/pots/purple_flower_pot"
+		},
+		"flower=oak_sapling": {
+			"model": "decormod:block/potted/purple_potted_oak_sapling"
+		},
+		"flower=spruce_sapling": {
+			"model": "decormod:block/potted/purple_potted_spruce_sapling"
+		},
+		"flower=birch_sapling": {
+			"model": "decormod:block/potted/purple_potted_birch_sapling"
+		},
+		"flower=jungle_sapling": {
+			"model": "decormod:block/potted/purple_potted_jungle_sapling"
+		},
+		"flower=acacia_sapling": {
+			"model": "decormod:block/potted/purple_potted_acacia_sapling"
+		},
+		"flower=dark_oak_sapling": {
+			"model": "decormod:block/potted/purple_potted_dark_oak_sapling"
+		},
+		"flower=fern": {
+			"model": "decormod:block/potted/purple_potted_fern"
+		},
+		"flower=dandelion": {
+			"model": "decormod:block/potted/purple_potted_dandelion"
+		},
+		"flower=poppy": {
+			"model": "decormod:block/potted/purple_potted_poppy"
+		},
+		"flower=blue_orchid": {
+			"model": "decormod:block/potted/purple_potted_blue_orchid"
+		},
+		"flower=allium": {
+			"model": "decormod:block/potted/purple_potted_allium"
+		},
+		"flower=azure_bluet": {
+			"model": "decormod:block/potted/purple_potted_azure_bluet"
+		},
+		"flower=bamboo": {
+			"model": "decormod:block/potted/purple_potted_bamboo"
+		},
+		"flower=red_tulip": {
+			"model": "decormod:block/potted/purple_potted_red_tulip"
+		},
+		"flower=orange_tulip": {
+			"model": "decormod:block/potted/purple_potted_orange_tulip"
+		},
+		"flower=white_tulip": {
+			"model": "decormod:block/potted/purple_potted_white_tulip"
+		},
+		"flower=pink_tulip": {
+			"model": "decormod:block/potted/purple_potted_pink_tulip"
+		},
+		"flower=oxeye_daisy": {
+			"model": "decormod:block/potted/purple_potted_oxeye_daisy"
+		},
+		"flower=cornflower": {
+			"model": "decormod:block/potted/purple_potted_cornflower"
+		},
+		"flower=lily_of_the_valley": {
+			"model": "decormod:block/potted/purple_potted_lily_of_the_valley"
+		},
+		"flower=wither_rose": {
+			"model": "decormod:block/potted/purple_potted_wither_rose"
+		},
+		"flower=red_mushroom": {
+			"model": "decormod:block/potted/purple_potted_red_mushroom"
+		},
+		"flower=brown_mushroom": {
+			"model": "decormod:block/potted/purple_potted_brown_mushroom"
+		},
+		"flower=dead_bush": {
+			"model": "decormod:block/potted/purple_potted_dead_bush"
+		},
+		"flower=cactus": {
+			"model": "decormod:block/potted/purple_potted_cactus"
+		},
+		"flower=crimson_fungus": {
+			"model": "decormod:block/potted/purple_potted_crimson_fungus"
+		},
+		"flower=warped_fungus": {
+			"model": "decormod:block/potted/purple_potted_warped_fungus"
+		},
+		"flower=crimson_roots": {
+			"model": "decormod:block/potted/purple_potted_crimson_roots"
+		},
+		"flower=warped_roots": {
+			"model": "decormod:block/potted/purple_potted_warped_roots"
+		}
+	}
 }

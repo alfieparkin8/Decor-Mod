@@ -1,0 +1,6 @@
+{
+	"parent": "decormod:block/pots/green_flower_pot_cross",
+	"textures": {
+		"plant": "block/cornflower"
+	}
+}
