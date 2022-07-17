@@ -8,8 +8,6 @@
   "client": [
     "SignTypeAccessor",
     "BlockEntityTypeMixin",
-    "BoatDropsMixin",
-    "BoatTypeMixin"
   ],
   "injectors": {
     "defaultRequire": 1
