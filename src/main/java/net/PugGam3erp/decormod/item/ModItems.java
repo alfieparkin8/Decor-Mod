@@ -65,7 +65,6 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.DECOR).maxCount(1)));
 
     public static final Item CHERRY_BLOSSOM_BOAT = registerItem("cherry_blossom_boat", new BoatItem(false, BoatEntity.Type.OAK, new FabricItemSettings().maxCount(1).group(ModItemGroup.DECOR)));
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(DecorMod.MOD_ID, name), item);
     }

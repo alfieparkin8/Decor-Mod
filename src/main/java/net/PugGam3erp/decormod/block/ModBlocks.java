@@ -4,6 +4,7 @@ import net.PugGam3erp.decormod.DecorMod;
 import net.PugGam3erp.decormod.block.custom.*;
 import net.PugGam3erp.decormod.entity.ModSignTypes;
 import net.PugGam3erp.decormod.item.ModItemGroup;
+import net.PugGam3erp.decormod.item.custom.ModFlowerPotBlock;
 import net.PugGam3erp.decormod.world.feature.tree.CherryBlossomSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -13,6 +14,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+
+import static net.minecraft.block.Blocks.AIR;
 
 public class ModBlocks {
 
@@ -52,6 +55,8 @@ public class ModBlocks {
     public static final Block CRIMSON_TABLE = registerBlock("crimson_table", new ModTableBlock(FabricBlockSettings.of(Material.NETHER_WOOD).nonOpaque().strength(2.0F, 3.0F)), ModItemGroup.DECOR);
     public static final Block WARPED_TABLE = registerBlock("warped_table", new ModTableBlock(FabricBlockSettings.of(Material.NETHER_WOOD).nonOpaque().strength(2.0F, 3.0F)), ModItemGroup.DECOR);
     public static final Block CHERRY_BLOSSOM_TABLE = registerBlock("cherry_blossom_table", new ModTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque().strength(2.0F, 3.0F)), ModItemGroup.DECOR);
+
+    public static final Block RED_FLOWER_POT = registerBlock("red_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
