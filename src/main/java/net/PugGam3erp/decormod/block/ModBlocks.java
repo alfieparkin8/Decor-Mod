@@ -4,7 +4,6 @@ import net.PugGam3erp.decormod.DecorMod;
 import net.PugGam3erp.decormod.block.custom.*;
 import net.PugGam3erp.decormod.entity.ModSignTypes;
 import net.PugGam3erp.decormod.item.ModItemGroup;
-import net.PugGam3erp.decormod.item.custom.ModFlowerPotBlock;
 import net.PugGam3erp.decormod.world.feature.tree.CherryBlossomSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -14,8 +13,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-
-import static net.minecraft.block.Blocks.AIR;
 
 public class ModBlocks {
 
@@ -56,22 +53,22 @@ public class ModBlocks {
     public static final Block WARPED_TABLE = registerBlock("warped_table", new ModTableBlock(FabricBlockSettings.of(Material.NETHER_WOOD).nonOpaque().strength(2.0F, 3.0F)), ModItemGroup.DECOR);
     public static final Block CHERRY_BLOSSOM_TABLE = registerBlock("cherry_blossom_table", new ModTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque().strength(2.0F, 3.0F)), ModItemGroup.DECOR);
 
-    public static final Block WHITE_FLOWER_POT = registerBlock("white_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block ORANGE_FLOWER_POT = registerBlock("orange_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block MAGENTA_FLOWER_POT = registerBlock("magenta_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block LIGHT_BLUE_FLOWER_POT = registerBlock("light_blue_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block YELLOW_FLOWER_POT = registerBlock("yellow_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block LIME_FLOWER_POT = registerBlock("lime_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block PINK_FLOWER_POT = registerBlock("pink_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block GRAY_FLOWER_POT = registerBlock("gray_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block LIGHT_GRAY_FLOWER_POT = registerBlock("light_gray_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block CYAN_FLOWER_POT = registerBlock("cyan_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block PURPLE_FLOWER_POT = registerBlock("purple_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block BLUE_FLOWER_POT = registerBlock("blue_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block BROWN_FLOWER_POT = registerBlock("brown_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block GREEN_FLOWER_POT = registerBlock("green_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block RED_FLOWER_POT = registerBlock("red_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
-    public static final Block BLACK_FLOWER_POT = registerBlock("black_flower_pot", new ModFlowerPotBlock(AIR, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block WHITE_FLOWER_POT = registerBlock("white_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block ORANGE_FLOWER_POT = registerBlock("orange_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block MAGENTA_FLOWER_POT = registerBlock("magenta_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block LIGHT_BLUE_FLOWER_POT = registerBlock("light_blue_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block YELLOW_FLOWER_POT = registerBlock("yellow_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block LIME_FLOWER_POT = registerBlock("lime_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block PINK_FLOWER_POT = registerBlock("pink_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block GRAY_FLOWER_POT = registerBlock("gray_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block LIGHT_GRAY_FLOWER_POT = registerBlock("light_gray_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block CYAN_FLOWER_POT = registerBlock("cyan_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block PURPLE_FLOWER_POT = registerBlock("purple_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block BLUE_FLOWER_POT = registerBlock("blue_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block BROWN_FLOWER_POT = registerBlock("brown_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block GREEN_FLOWER_POT = registerBlock("green_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block RED_FLOWER_POT = registerBlock("red_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
+    public static final Block BLACK_FLOWER_POT = registerBlock("black_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
