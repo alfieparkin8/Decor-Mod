@@ -1,10 +1,10 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "decormod:blocks/blue_flower_pot",
-		"flowerpot": "decormod:blocks/blue_flower_pot",
+		"particle": "decormod:block/blue_flower_pot",
+		"flowerpot": "decormod:block/blue_flower_pot",
 		"dirt": "block/dirt",
-		"plant": "decormod:blocks/static_fern"
+		"plant": "decormod:block/static_fern"
 	},
 	"elements": [
 		{   "from": [ 5, 0, 5 ],

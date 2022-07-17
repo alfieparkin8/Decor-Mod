@@ -1,6 +1,6 @@
 {
 	"parent": "decormod:block/pots/light_gray_glazed_flower_pot_cross",
 	"textures": {
-		"plant": "decormod:blocks/static_fern"
+		"plant": "decormod:block/static_fern"
 	}
 }

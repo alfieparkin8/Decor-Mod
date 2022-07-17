@@ -1,8 +1,8 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "decormod:blocks/yellow_flower_pot",
-		"flowerpot": "decormod:blocks/yellow_flower_pot",
+		"particle": "decormod:block/yellow_flower_pot",
+		"flowerpot": "decormod:block/yellow_flower_pot",
 		"dirt": "block/dirt",
 		"bamboo": "block/bamboo_stalk",
 		"leaf": "block/bamboo_singleleaf"

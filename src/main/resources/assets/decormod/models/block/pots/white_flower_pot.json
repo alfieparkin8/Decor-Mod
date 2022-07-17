@@ -1,8 +1,8 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "decormod:blocks/white_flower_pot",
-		"flowerpot": "decormod:blocks/white_flower_pot",
+		"particle": "decormod:block/white_flower_pot",
+		"flowerpot": "decormod:block/white_flower_pot",
 		"dirt": "block/dirt"
 	},
 	"elements": [
