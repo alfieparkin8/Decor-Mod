@@ -89,6 +89,19 @@
 		},
 		"flower=warped_roots": {
 			"model": "decormod:block/potted/white_potted_warped_roots"
+		},
+		"flower=cherry_blossom_sapling": {
+			"model": "decormod:block/potted/white_potted_cherry_blossom_sapling"
+		},
+		"flower=mangrove_propagule": {
+			"model": "decormod:block/potted/white_potted_mangrove_propagule"
+		},
+		"flower=azalea_bush": {
+			"model": "decormod:block/potted/white_potted_azalea_bush"
+		},
+		"flower=flowering_azalea_bush": {
+			"model": "decormod:block/potted/white_potted_flowering_azalea_bush"
 		}
+
 	}
 }

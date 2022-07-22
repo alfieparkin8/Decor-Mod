@@ -1,5 +1,5 @@
 {
-  "parent": "decormod:block/pots/template_white_potted_azalea_bush",
+  "parent": "decormod:block/pots/template_potted_azalea_bush",
   "textures": {
     "side": "minecraft:block/potted_flowering_azalea_bush_side",
     "top": "minecraft:block/potted_flowering_azalea_bush_top"
