@@ -1,10 +1,11 @@
 package net.PugGam3erp.decormod;
 
 import net.PugGam3erp.decormod.block.ModBlocks;
+import net.PugGam3erp.decormod.block.entity.ModBlockEntities;
 import net.PugGam3erp.decormod.item.ModItems;
+import net.PugGam3erp.decormod.screen.ModScreenHandlers;
 import net.PugGam3erp.decormod.util.ModRegistries;
 import net.PugGam3erp.decormod.world.feature.ModConfiguredFeatures;
-import net.PugGam3erp.decormod.world.gen.ModTreeGeneration;
 import net.PugGam3erp.decormod.world.gen.ModWorldGen;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -23,6 +24,7 @@ public class DecorMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModRegistries.registerModStuffs();
 		ModWorldGen.generateModWorldGen();
+		ModBlockEntities.registerAllBlockEntities();
 
 	}
 }

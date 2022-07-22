@@ -53,7 +53,9 @@ public class ModBlocks {
     public static final Block WARPED_TABLE = registerBlock("warped_table", new ModTableBlock(FabricBlockSettings.of(Material.NETHER_WOOD).nonOpaque().strength(2.0F, 3.0F)), ModItemGroup.DECOR);
     public static final Block CHERRY_BLOSSOM_TABLE = registerBlock("cherry_blossom_table", new ModTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque().strength(2.0F, 3.0F)), ModItemGroup.DECOR);
 
-    public static final Block OAK_CHAIR = registerBlock("oak_chair", new ModChairBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque().strength(2.0F, 3.0F)), ModItemGroup.DECOR);
+    public static final Block OAK_CHAIR = registerBlock("oak_chair", new ModTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque().strength(2.0F, 3.0F)), ModItemGroup.DECOR);
+
+    public static final Block FLETCHING_TABLE = registerBlock("fletching_table", new ModFletchingTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.DECOR);
 
 
     public static final Block WHITE_FLOWER_POT = registerBlock("white_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
