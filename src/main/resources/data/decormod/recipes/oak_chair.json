@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "###",
+    "W w"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "minecraft:oak_slab"
+    }
+  },
+  "result": {
+    "item": "decormod:oak_chair",
+    "count": 1
+  },
+  "group": "chairs"
+}

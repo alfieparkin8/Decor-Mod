@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "decormod:block/oak_chair" },
+    "facing=east": { "model": "decormod:block/oak_chair", "y": 90 },
+    "facing=south": { "model": "decormod:block/oak_chair", "y": 180 },
+    "facing=west": { "model": "decormod:block/oak_chair", "y": 270 }
+  }
+}

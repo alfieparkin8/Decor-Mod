@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "decormod:oak_chair",
+    "decormod:dark_oak_chair",
+    "decormod:birch_chair",
+    "decormod:spruce_chair",
+    "decormod:acacia_chair",
+    "decormod:jungle_chair",
+    "decormod:warped_chair",
+    "decormod:crimson_chair",
+    "decormod:cherry_blossom_chair"
+  ]
+}
+
