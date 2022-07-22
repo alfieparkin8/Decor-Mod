@@ -25,9 +25,9 @@ public class FletchingTableScreenHandler extends ScreenHandler {
         inventory.onOpen(playerInventory.player);
 
         //
-        this.addSlot(new ModFuelSlot(inventory, 0, 18, 50));
-        this.addSlot(new Slot(inventory, 1, 66, 16));
-        this.addSlot(new ModResultSlot(inventory, 2, 114, 33));
+        this.addSlot(new Slot(inventory, 0, 27, 49));
+        this.addSlot(new Slot(inventory, 1, 76, 49));
+        this.addSlot(new ModResultSlot(inventory, 2, 134, 49));
 
         addPlayerInventory(playerInventory);
         addPlayerHotbar(playerInventory);
