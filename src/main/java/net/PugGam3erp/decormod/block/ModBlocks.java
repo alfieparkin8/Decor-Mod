@@ -55,6 +55,8 @@ public class ModBlocks {
 
     public static final Block OAK_CHAIR = registerBlock("oak_chair", new ModTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque().strength(2.0F, 3.0F)), ModItemGroup.DECOR);
 
+    public static final Block PEBBLES = registerBlock("pebbles", new PebbleBlock(FabricBlockSettings.of(Material.STONE).nonOpaque().breakInstantly()), ModItemGroup.DECOR);
+
     public static final Block FLETCHING_TABLE = registerBlock("fletching_table", new ModFletchingTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.DECOR);
 
 

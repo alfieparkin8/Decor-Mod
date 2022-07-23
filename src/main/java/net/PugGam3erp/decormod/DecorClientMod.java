@@ -34,6 +34,7 @@ public class DecorClientMod implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_FLOWER_POT, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_FLOWER_POT, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_FLOWER_POT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PEBBLES, RenderLayer.getCutout());
 
         ScreenRegistry.register(ModScreenHandlers.FLETCHING_TABLE_SCREEN_HANDLER, FletchingTableScreen::new);
     }
