@@ -8,6 +8,7 @@
   "client": [
     "SignTypeAccessor",
     "BlockEntityTypeMixin",
+    "FletchingTableMixin"
   ],
   "injectors": {
     "defaultRequire": 1

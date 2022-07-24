@@ -57,9 +57,6 @@ public class ModBlocks {
 
     public static final Block PEBBLES = registerBlock("pebbles", new PebbleBlock(FabricBlockSettings.of(Material.STONE).nonOpaque().breakInstantly()), ModItemGroup.DECOR);
 
-    public static final Block FLETCHING_TABLE = registerBlock("fletching_table", new ModFletchingTableBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), ModItemGroup.DECOR);
-
-
     public static final Block WHITE_FLOWER_POT = registerBlock("white_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
     public static final Block ORANGE_FLOWER_POT = registerBlock("orange_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);
     public static final Block MAGENTA_FLOWER_POT = registerBlock("magenta_flower_pot", new TemplatePotBlock(FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()), ModItemGroup.DECOR);

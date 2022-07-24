@@ -2,10 +2,13 @@ package net.PugGam3erp.decormod;
 
 
 import net.PugGam3erp.decormod.block.ModBlocks;
+import net.PugGam3erp.decormod.entity.ModEntities;
+import net.PugGam3erp.decormod.entity.client.GreenSnakeRenderer;
 import net.PugGam3erp.decormod.screen.FletchingTableScreen;
 import net.PugGam3erp.decormod.screen.ModScreenHandlers;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
 import net.minecraft.client.render.RenderLayer;
 
@@ -37,5 +40,7 @@ public class DecorClientMod implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PEBBLES, RenderLayer.getCutout());
 
         ScreenRegistry.register(ModScreenHandlers.FLETCHING_TABLE_SCREEN_HANDLER, FletchingTableScreen::new);
+        EntityRendererRegistry.register(ModEntities.GREEN_SNAKE, GreenSnakeRenderer::new);
+
     }
 }

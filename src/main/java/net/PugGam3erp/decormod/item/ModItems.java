@@ -2,6 +2,7 @@ package net.PugGam3erp.decormod.item;
 
 import net.PugGam3erp.decormod.DecorMod;
 import net.PugGam3erp.decormod.block.ModBlocks;
+import net.PugGam3erp.decormod.entity.ModEntities;
 import net.PugGam3erp.decormod.item.custom.ModAxeItem;
 import net.PugGam3erp.decormod.item.custom.ModHoeItem;
 import net.PugGam3erp.decormod.item.custom.ModMusicDiscItem;
@@ -17,6 +18,11 @@ import net.minecraft.util.registry.Registry;
 
 
 public class ModItems {
+
+    public static final Item GREEN_SNAKE_SPAWN_EGG = registerItem("green_snake_spawn_egg",
+            new SpawnEggItem(ModEntities.GREEN_SNAKE,0x0f4c1a, 0x8b8f6d,
+                    new FabricItemSettings().group(ModItemGroup.DECOR).maxCount(1)));
+
     public static final Item WHITE_BRICK = registerItem("white_brick", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item ORANGE_BRICK = registerItem("orange_brick", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));
     public static final Item MAGENTA_BRICK = registerItem("magenta_brick", new Item(new FabricItemSettings().group(ModItemGroup.DECOR)));

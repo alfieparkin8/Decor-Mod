@@ -3,13 +3,13 @@ package net.PugGam3erp.decormod;
 import net.PugGam3erp.decormod.block.ModBlocks;
 import net.PugGam3erp.decormod.block.entity.ModBlockEntities;
 import net.PugGam3erp.decormod.item.ModItems;
-import net.PugGam3erp.decormod.screen.ModScreenHandlers;
 import net.PugGam3erp.decormod.util.ModRegistries;
 import net.PugGam3erp.decormod.world.feature.ModConfiguredFeatures;
 import net.PugGam3erp.decormod.world.gen.ModWorldGen;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import software.bernie.geckolib3.GeckoLib;
 
 public class DecorMod implements ModInitializer {
 	public static final String MOD_ID = "decormod";
@@ -25,6 +25,6 @@ public class DecorMod implements ModInitializer {
 		ModRegistries.registerModStuffs();
 		ModWorldGen.generateModWorldGen();
 		ModBlockEntities.registerAllBlockEntities();
-
+		GeckoLib.initialize();
 	}
 }
