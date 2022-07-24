@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.green_snake.idle": {
+		"animation.snake.idle": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {

@@ -1,32 +1,32 @@
 package net.PugGam3erp.decormod.entity.client;
 
 import net.PugGam3erp.decormod.DecorMod;
-import net.PugGam3erp.decormod.entity.custom.GreenSnakeEntity;
+import net.PugGam3erp.decormod.entity.custom.SnakeEntity;
 import net.minecraft.util.Identifier;
 import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
 import software.bernie.geckolib3.core.processor.IBone;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 import software.bernie.geckolib3.model.provider.data.EntityModelData;
 
-public class GreenSnakeModel extends AnimatedGeoModel<GreenSnakeEntity> {
+public class SnakeModel extends AnimatedGeoModel<SnakeEntity> {
     @Override
-    public Identifier getModelResource(GreenSnakeEntity object) {
-        return new Identifier(DecorMod.MOD_ID, "geo/green_snake.geo.json");
+    public Identifier getModelResource(SnakeEntity object) {
+        return new Identifier(DecorMod.MOD_ID, "geo/snake.geo.json");
     }
 
     @Override
-    public Identifier getTextureResource(GreenSnakeEntity object) {
-        return new Identifier(DecorMod.MOD_ID, "textures/entity/snakes/green_snake.png");
+    public Identifier getTextureResource(SnakeEntity object) {
+        return SnakeRenderer.LOCATION_BY_VARIANT.get(object.getVariant());
     }
 
     @Override
-    public Identifier getAnimationResource(GreenSnakeEntity animatable) {
-        return new Identifier(DecorMod.MOD_ID, "animations/green_snake.animation.json");
+    public Identifier getAnimationResource(SnakeEntity animatable) {
+        return new Identifier(DecorMod.MOD_ID, "animations/snake.animation.json");
     }
 
     @SuppressWarnings({ "unchecked", "rawtypes" })
     @Override
-    public void setLivingAnimations(GreenSnakeEntity entity, Integer uniqueID, AnimationEvent customPredicate) {
+    public void setLivingAnimations(SnakeEntity entity, Integer uniqueID, AnimationEvent customPredicate) {
         super.setLivingAnimations(entity, uniqueID, customPredicate);
         IBone head = this.getAnimationProcessor().getBone("head");
 
